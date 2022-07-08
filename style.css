@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "KoPubDotumMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: koPubDotumMedium;
+  font-size: 25px;
+  color: white;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #222a35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+}
+
+body > div {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+}
+.section-title > div:first-child,
+.section-title > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.section-title > div:first-child {
+  margin-bottom: 20px;
+  padding-right: 8px;
+}
+.section-title > div:first-child > span {
+  text-align: end;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 1px;
+}
+
+.section-title > div:nth-child(2) {
+  margin-bottom: 30px;
+}
+.section-title > div:nth-child(2) > span:first-child {
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 3px;
+  padding-left: 6px;
+}
+.section-title > div:nth-child(2) > span:last-child {
+  background-color: white;
+  color: #222a35;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+}
+
+.section-title > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-title > div:last-child > span:first-child {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.section-title > div:last-child > span:last-child {
+  font-size: 23px;
+}
+
+table,
+tr,
+td,
+th {
+  border: solid 1px;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+tr > td:first-child {
+  width: 250px;
+}
+tr > td:last-child {
+  width: 100px;
+}
+tr > td:last-child > a {
+  text-decoration: none;
+}
+tr > td:last-child > a > i {
+  font-size: 20px;
+}
+
+img {
+  height: 130px;
+  position: absolute;
+  botton: 0;
+}

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(127deg, rgb(239, 87, 119), rgb(60, 64, 198)),
+    linear-gradient(217deg, rgb(60, 64, 198), rgb(0, 216, 214)),
+    linear-gradient(336deg, rgb(0, 216, 214), rgb(239, 87, 119));
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.534);
+}
